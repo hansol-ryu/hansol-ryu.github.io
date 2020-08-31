@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="ucs.css">
+
+    <title> Portfolio - User-Centered Systems design </title>
+</head>
+
+<body>
+<!-- header -->
+<header>
+  <div id="nav-inside">
+    <a href="index.html" class="nav-item" id="portfolio">
+      <span class="nav-name">home</span>
+      <div class="wavy"></div>
+    </a>
+
+    <a href="about.html" class="nav-item" id="about">
+      <span class="nav-name">about</span>
+      <div class="wavy"></div>
+    </a>
+
+    <a href="resume.html" class="nav-item" id="resume">
+      <span class="nav-name">resume</span>
+      <div class="wavy"></div>
+    </a>
+    <!-- <div class="nav-inside-item" id="nav-portfolio"><a href="home.html">HOME</a></div>
+    <div class="nav-inside-item" id="nav-about"><a href="about.html">ABOUT</a></div>
+    <div class="nav-inside-item" id="nav-resume">RESUME</div> -->
+  </div>
+</header>
+
+<div class="main">
+<!-- Intro -->
+  <div class="intro">
+    <div class="pj-title">Inventory system for the shop management</div>
+    <div class="tagline">Botaniska Trädgården in Uppsala</div>
+  </div>
+
+
+<!-- Overview -->
+  <div id="overview">
+    <div class="pj-image"><img id="ucs-overview" src="inventree-wide.png"></div>
+      <div class="ov-text">
+        <div id="overall"><p><b>DESIGN OUTCOME</b> <br>As a part of the university course(User-centered systems design), our team created a prototype of a desktop system that improves the efficiency of the inventory process of a shop manager in a botanic garden in Uppsala. The prototype connects communication channels that were shattered, which caused inconvenience in keeping track of inventory of multiple shops. </p></div>
+        <div class="pj-info" id="role"><b>MY ROLE</b>&nbsp;&nbsp;&nbsp;User research(Contextual inquiry), prototyping, UI design</div>
+        <div class="pj-info" id="team"><b>TEAM</b>&nbsp;&nbsp;&nbsp;Hansol Ryu, Jacqui, Juhee Kim, Rodi Watti, Sonia Rodi</div>
+        <div class="pj-info" id=tool><b>TOOL</b>&nbsp;&nbsp;&nbsp;Figma</div>
+        <div class="pj-info" id="duration"><b>DURATION</b>&nbsp;&nbsp;&nbsp;Jan-Feb 2020</div>
+      </div>
+  </div>
+<!-- Process -->
+  <div class="process">
+
+    <div id="challenge">
+      <div class="content-title"><strong>CHALLENGE</strong></div>
+      <div id=challenge-ct-wrap>
+        <img id="annaimage" src="UCS/persona.svg">
+        <div class="content-dsc" id="challenge-dsc"><p>Anna, the shop manager of three souvenir shops of Botaniska Tradgarden in Uppsala, is in charge of /keeps keeping track of inventory and placing orders.</br></br>
+
+Due to the absence of the central system specialized in shop management, she was in trouble for not being able to keep track of different shops at once. To update the inventory data gained by dropping by each shop or being reported by staff in each shop, she struggles with synchronizing the updated data with the existing system of the museum that was not specialized for shop management.</br></br>
+
+Also, to have all data of three shops under her control, she used four shattered multiple channels apart from relying on her memory - an extremely cumbersome experience.
+</p></div>
+        </div>
+      </div>
+
+    <div class="process-img">
+        <div class="content-title"><strong>DESIGN PROCESS</strong></div>
+        <img id="process-img" src="UCS/process.svg">
+    </div>
+
+    <div id="persona">
+      <div class="content-title"><strong>USER RESEARCH</strong><br><p id="ps-subtitle">CONTEXTUAL INQUIRY</p></div>
+      <div class="content-wrap">
+        <div class="content-dsc" id="persona-dsc">
+          <p>To fully understand her problems, we conducted <b>a 40 min-preliminary interview</b><em> at the common area in her office</em> and <b>an hour of contextual inquiry interview</b> <em>at the warehouse</em> where she actually does her inventory work.
+One of my teammates and I walked through her work process from gaining data to updating on the existing system. We observed her work flow in detail and understood at which step of the work process she struggles the most by asking questions. We jotted down what we had observed and interviewed, and shared the result with the rest of teammates.
+</p>
+          <div id="ps-img">
+            <img class="ps-img" src=UCS/interview1.jpg>
+            <img class="ps-img" src=UCS/interview2.jpg>
+          </div>
+          <!-- <p><br>As a result, we discovered that inefficiency was caused by
+
+          <br>1) Inability to see how many articles are in each shop
+          <br>2) Which required for communication for asking employees about shop stocks
+          <br>3) Not smooth process of exportation/Importation of Excel file from/to Blå Boken to update stock -->
+          </p></div>
+    </div>
+  </div>
+  <div id="models">
+    <div id="md-ct-title" class="content-title">WORK MODELS</div>
+
+    <div id="models-wrap" class="content-wrap">
+      <div id="models-sequence" class= "models-content">
+        <img id="md-img1" class="md-img" alt="" src="UCS/sequence.PNG">
+        <div class="cover"><p>Sequence</p></div>
+      </div>
+      <div id="models-flow" class="models-content">
+        <img id="md-img2" class="md-img" alt="" src="UCS/flow.png">
+        <div class="cover"><p>Flow</p></div>
+      </div>
+      <div id="models-artifact" class="models-content">
+        <img id="md-img3" class="md-img" alt="" src="UCS/artifact.png">
+        <div class="cover"><p>Artifact</p></div>
+      </div>
+      <div class=content-dsc id=md-dsc>
+        <p>Later on, we analyzed the result using three work models.
+  <br>-&nbsp;<b>Sequence model</b> : we analyzed the sequence of her work process along with dividing the process into several chunks depending on the intention of action. This process also revealed the break points of her work process, in which she is likely to experience inconvenience the most. Her work mainly consists of three process ; extracting the existing data, collecting new data, combining existing data and new data.
+<br>-&nbsp;<b>Flow model</b> : We analyzed how the resources and communication flow between stakeholders. Mainly the shop staff and the shop manager communicate to keep each other updated.
+<br>-&nbsp;<b>Artifact model</b> : We analyzed what and how artifacts are used around the work process. The artifacts include the channel for communication between employees(email, call), document processor software(Word, Excel, Google spreadsheet), and Blå Boken, a software system for the whole museum.
+
+  </p></div>
+
+  <div id="md-insight-title" class="content-title">INSIGHTS</div>
+  <div class="content-dsc insight-dsc">
+  <p>Based on the analysis,  we discovered that inefficiency was caused by
+  <br>1)&nbsp;Inability to see how many articles are in each shop
+  <br>2)&nbsp;Communication for asking employees about shop stocks
+  <br>3)&nbsp;Relying on the manager’s memory or manual work, when items redistributed items shops (e.g. move the 12 mug cups from shop A to shop B)
+  <br>4)&nbsp;Not smooth process of exportation/Importation of Excel file from/to Blå Boken to update stock</p>
+</div>
+
+  <p id=phrase><em>“How can Anna keep track of three inventories with the least number of communication channels and the least amount of manual work?”</em></strong></p>
+    </div>
+  </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+      <!-- Close button 여기 그 효과?-->
+      <span class="close">&times;</span>
+      <!-- Modal Content -->
+      <img class="modal-content" id="img01">
+    </div>
+
+<!-- Design solutions -->
+  <div id="solutions">
+    <div class="content-title"><strong>DESIGN SOLUTIONS</strong></div>
+    <div class="insight-dsc content-dsc">
+      <p>With the question in mind, we brainstormed and sketched the system in which
+        <br>
+        <br>	&#8226; the manager can keep track of each shops’ inventory status at once.
+        <br>	&#8226; Minimize the manual updating to stock status.</p>
+    </div>
+    <!-- <div class=content-dsc id=solution-dsc2>
+      <p><b>Solutions</b></p>
+      <p>
+        <br>&#8594; In Stock Status, all data of each shop is presented on the same page.
+        <br>&#8594; By indicating items that are running out of using colors, she can easily recognize items to order.
+        <br>&#8594; Whenever an item is sold, the data is directly updated.
+        <br>&#8594; Created the “redistribute” page where the manager can update what and how many items are moved between which shops.
+      </p>
+    </div> -->
+    <div id="brainstorming">
+      <img class="bstm-img" src="UCS/sketch1.jpg">
+      <img class="bstm-img" src="UCS/sketch2.jpg">
+      <p id=slt-title>Brainstorming</p>
+      <!-- <img class="bstm-img"> -->
+    </div>
+    <div class="lowfi-wrap">
+      <div class="lowfi">
+      <img class="lowfi-img" src="UCS/home_low.png">
+      <img class="lowfi-img" src="UCS/stock_low.png">
+      <img class="lowfi-img" src="UCS/redistribution_low.png">
+      <img class="lowfi-img" src="UCS/redistribute_low2.png">
+      <img class="lowfi-img" src="UCS/order_low.png">
+      <img class="lowfi-img" src="UCS/order_status_low.png">
+      <p id="slt-title">Low fidelity design</p></div>
+  </div>
+  <div class="hifi-wrap">
+  <div class="hifi" id="homescreen">
+    <img class="slt-img" id="home-img" src="UCS/homescreen.svg">
+    <!-- <div class="slt-dsc content-dsc"></div> -->
+    <p id=slt-title><strong>Home screen</strong></p>
+  </div>
+  <div class="hifi" id="stockstatus">
+      <img class="slt-img" id="home-img" src="UCS/stock status.svg">
+    <!-- <div class="slt-dsc content-dsc"></div> -->
+    <p id="slt-title"><strong>Stock status</strong></p>
+    <div class=content-dsc>
+    <p>&#8226; In Stock Status, all data of each shop is presented on the same page.
+    <br>&#8226; By indicating items that are running out of using colors, she can easily recognize items to order.
+    <br>&#8226; Whenever an item is sold, the data is directly updated.</p>
+  </div>
+  </div>
+
+  <div class="hifi" id="redistribution">
+    <video class="slt-video" controls><source src="UCS/redistribute.mp4" type="video/mp4"></video>
+    <!-- <div class="slt-dsc content-dsc"> </div> -->
+      <p id="slt-title"><strong>Redistribution</strong></p>
+      <div class=content-dsc>
+      <p>	&#8226; Created the “redistribute” page where the manager can update what and how many items are moved between which shops.</p>
+    </div>
+  </div>
+
+  <div id="md-ct-title" class="content-title">ITERATION</div>
+  <div class="content-dsc insight-dsc">
+  <p>Other than solutions described above, we also came up with designs for placing order within the system. We presented our initial ideas to the shop manager, and according to the feedback, we removed the feature since it is not necessary for the manager to place an order within the system since she directly goes to the suppliers’ website. </p>
+</div>
+</div>
+
+
+
+
+
+
+<!-- Reflection -->
+  <div id="reflection">
+    <div class="content-title"><strong>LEARNING OUTCOME</strong></div>
+    <div class="content-dsc" id="rft-dsc"><p>The main takeaway from this project was how important it is to be in the real environment of the target task to understand the user and problems well. By observing the work process and asking questions in the real-setting(warehouse) , we could get much richer data at the warehouse than we did from the preliminary interview that took place at the office sitting at the table. That is because real-setting naturally reminds her of what she struggles with the most and shows all details of her work.<br><br>
+
+Also, through the feedback we got during the iteration, I learned that what I think the user would need can be different from what the user actually needs. Some features that we came up with seem to be helpful to her but they were actually not. To provide the product that actually meets the user’s needs, asking and getting the feedback instead of assuming based on a preconceived idea was the key in this project.
+</p></div>
+  </div>
+</div>
+</div>
+
+<button onclick="topFunction()" id="topBtn" title="toTop"><img id="btnArrow"  src="UCS/arrow_btn.svg"></button>
+
+<!-- footer -->
+  <div class="flex-footer-container main-item">
+    <div class="footer-item" id="copyright">copyright ⓒ 2020, Hansol Ryu. </div>
+  </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
+
+
+
+<!-- <div id="models">
+  <div id="md-ct-title" class="content-title">WORK MODELS</div>
+  <div id="models-wrap" class="content-wrap">
+    <div id="models-sequence" class="models-content">
+      <img class="md-img" src=UCS/sequence.svg>
+    </div>
+    <div id="models-artifact" class="models-content">
+      <img class="md-img" src=UCS/artifact.svg>
+    </div>
+    <div id="models-flow" class="models-content">
+      <img class="md-img" src=UCS/flow.svg>
+    </div>
+    <div class="md-dsc">여기에 work models 에 대한 설명 두 줄 정도로 요약하기</div>
+  </div>
+</div> -->
