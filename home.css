@@ -44,7 +44,7 @@ a span:hover{
 a .wavy{
   position:absolute;
   width:100%;
-  height:100%;;
+  height:100%;
   top: calc(100% + 20px);
   left:0;
   background-color:#333333;
@@ -66,7 +66,7 @@ a:hover .wavy{
 }
 @keyframes wave{
   from{
-    background-position-x: 0px;;
+    background-position-x: 0px;
     background-position-y: -20px;
   }
   to{
@@ -140,7 +140,7 @@ a:hover .wavy{
 }
 #image-ucs, #image-smile, #image-non{
   max-width:100%;
-  height:auto
+  height:auto;
 }
 #goto{
   max-width: 30%;
@@ -317,10 +317,5 @@ a:hover .wavy{
     font-size: 0.9em;
     color: #676767;
   }
-
-}
-/* Tablet */
-/* @media all and (min-width:463px) and (max-width: 1120px){
-
 
 }
