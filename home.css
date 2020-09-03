@@ -216,8 +216,8 @@ a:hover .wavy{
     display:none;
   }
   .nav-item{
-    flex-basis: 60px;
-    height: 20px;
+    flex-basis: 100px;
+    height: 24px;
     position: relative;
     border-bottom: black 2px solid;
     margin: 8px;
@@ -226,7 +226,7 @@ a:hover .wavy{
     text-decoration:none;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: regular;
-    font-size: 10px;
+    font-size: 16px;
     text-transform: uppercase;
     overflow: hidden;
   }

@@ -15,8 +15,6 @@ header{
   background-color: #EDEDE7;
   text-align: center;
   margin: 80px auto 20px auto;
-  /*margin-bottom: 20px;*/
-  /*margin-top: 80px;*/
 }
 #nav-inside{
   margin-top:30px;
@@ -78,7 +76,6 @@ header{
   height:auto;
 }
 .pj-info{
-  /* margin-top: 10px; */
   line-height: 2;
 }
 .ov-text{
@@ -353,8 +350,8 @@ header{
 #topBtn{
   display:none;
   position:fixed;
-  bottom: 70px;
-  right:70px;
+  bottom: 40px;
+  right:40px;
   z-index: 99;
   border: none;
   border-radius: 90px;
@@ -368,8 +365,8 @@ header{
   transform: rotate(-90deg) scale(1.2);
 }
 #btnArrow{
-  width:40px;
-  height:40px;
+  width:30px;
+  height:30px;
   padding: 10px;
 }
 
@@ -406,7 +403,7 @@ header{
   #img01{
     width: 88%;
   }
-  #persona-dsc, .content-dsc{
+  #persona-dsc, .content-dsc, #md-dsc, #rft-dsc{
     max-width: 86%;
   }
   #process-img{
@@ -440,6 +437,15 @@ header{
   .slt-video{
     max-width:86%;
 
+   }
+   #btnArrow{
+     width:24px;
+     height:30px;
+     padding: 10px;
+   }
+   #topBtn{
+     bottom: 40px;
+     right:20px;
    }
 }
 /*Mobile version*/
@@ -475,13 +481,23 @@ header{
   .modal{
     width: 86%;
   }
-  .md-dsc{
-    width:86%;
+  #md-dsc{
+    max-width:86%;
   }
   .slt-video{
     max-width: 86%;
     /* position: relative;
     left: 50%;
     transform: translate(-50%); */
+  }
+  #btnArrow{
+    width:24px;
+    height:30px;
+    padding: 10px;
+  }
+  #topBtn{
+    bottom: 40px;
+    right:20px;
+
   }
 }
